@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport"content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+   
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="css/style.css">
+   <title>Document</title>
+</head>
+<body>
+   <div class="name-field">
+      <label for="fname">Введите свое имя:</label>
+  <input type="text" id="fname" name="fname" data-input><br><br>
+</form>
+   <!-- </div>
+   <div class="stite badge badge-inverse">
+      <time class = "timer">0</time>
+   </div>
+   <div class="stite badge badge-inverse">
+      <time class = "counter">0</time>
+   </div> -->
+   <div class="wrapper">
+      <div class="progress_bars">
+         <div class="PB_first">
+            <div class="progress">
+               <div class="progress-bar progress__first" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                 <span class="sr-only">70% Complete</span>
+               </div>
+             </div>
+         </div>
+         <div class="PB_second">
+            <div class="progress">
+               <div class="progress-bar progress__second" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                 <span class="sr-only">70% Complete</span>
+               </div>
+             </div>
+         </div>
+         <div class="PB_third">
+            <div class="progress">
+               <div class="progress-bar progress__third" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                 <span class="sr-only">70% Complete</span>
+               </div>
+             </div>
+         </div>
+      </div>
+      <div class="displays">
+         <div class="displays__display">3</div>
+         <div class="displays__display">3</div>
+         <div class="displays__display">3</div>
+      </div>
+      <div class="tools">
+         <button class="tools__button btn btn-primary">Отмычка</button>
+         <button class="tools__button btn btn-success">Щуп</button>
+         <button class="tools__button btn btn-warning">Молоток</button>
+         <button action = "php/action.php" method= "GET" class="tools__reset btn btn-danger">Сброс</button>
+      </div>
+   </div>
+   <p class = 'out'></p>
+   <script src="js/script.js"></script>
+</body>
+</html>

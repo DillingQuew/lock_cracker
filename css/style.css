@@ -1,0 +1,99 @@
+.wrapper{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 300px;
+   width: 300px;
+   position: relative;
+}
+.displays{
+
+   display: flex;
+   justify-content: space-around;
+}
+.displays__display{
+   border:1px solid black;
+   width: 30px;
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+   
+}
+.tools {
+   margin-top: 30px;
+   display: grid;
+   height: 200px;
+   width: 300px;
+}
+
+.tools__button{
+ 
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 80px;
+   height: 30px;
+   margin-top: 10px;
+   grid-column: 1;
+   
+}
+.tools__reset {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 80px;
+   height: 30px;
+   margin-top: 10px;
+   grid-column: 2;
+   grid-row: 1;
+   width: 100px;
+   height: 50px;
+}
+
+
+.tools__button:last-child{
+   grid-column: 2;
+   grid-row: 1;
+   width: 100px;
+} 
+ .tools:nth-child(3){
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.progress_bars {
+   
+   transform: rotate(270deg);
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;
+   top: -180px; 
+   left: 49.3px;
+
+   /* -180 */
+}
+.progress {
+   width: 200px;
+   height: 51px;
+   display: flex;
+   margin-top: 20px;
+}
+
+.PB_first, .PB_second, .PB_third {
+   display: flex;
+}
+.name-field {
+margin-top: 30px;
+margin-left: 80px;
+}
+.stite {
+margin-left: 80px;
+border: 2px solid  whitesmoke;
+border-radius: 5px;
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 33px;
+font-size: 14pt;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
